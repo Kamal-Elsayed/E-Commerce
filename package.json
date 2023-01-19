@@ -27,6 +27,7 @@
     "eject": "react-scripts eject"
   },
   "homepage": "https://Kamal-Elsayed.github.io/E-Commerce",
+  "checkout": "https://kamal-elsayed.github.io/E-Commerce/checkout",
   "eslintConfig": {
     "extends": [
       "react-app",

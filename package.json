@@ -1,6 +1,7 @@
 {
   "name": "e-commerce",
   "version": "0.1.0",
+  "homepage": "https://Kamal-Elsayed.github.io/E-Commerce",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -10,7 +11,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-currency-format": "^1.1.0",
     "react-dom": "^18.2.0",
@@ -20,20 +20,20 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://Kamal-Elsayed.github.io/E-Commerce",
-  "checkout": "https://kamal-elsayed.github.io/E-Commerce/checkout",
+  
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
